@@ -11,7 +11,8 @@ var year = 1931,
     },
     venue;
 
-function Venue(name, city){
+//function Venue(name, city){
+var Venue = function(name, city){
   this.name = name;
   this.city = city;
 }
